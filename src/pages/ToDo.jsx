@@ -84,8 +84,7 @@ const ToDo = () => {
     <AuthProvider>
       <div className='main flex flex-col  items-center bg-black h-screen'>
       <div className="background-image "></div>
-      <div className="header z-[1] flex justify-between gap-[195%] items-center self-start ml-[22%] mt-[25px]
-">
+      <div className="header z-[1] flex justify-between gap-[195%] items-center self-start ml-[22%] mt-[25px]">
         <div className="title">
         <div className="title text-[white] tracking-[55px] text-[50px] font-semibold flex items-center justify-center py-12 ">
             CHECKMATE
@@ -168,6 +167,7 @@ const ToDo = () => {
             </div>
           ))}
         
+
         <div className="todo-items-info fixed z-10 w-full h-[70px] bg-[#25273c] flex items-center text-[#4d5066]  justify-between px-[90px] left-0 bottom-0">
           <div className="items-left">{todos.filter(todo => !todo.completed).length} items left</div>
           <div className="items-statuses">
@@ -187,6 +187,7 @@ const ToDo = () => {
         </div>
       </div>
     </div>
+    
     </AuthProvider>
   );
 };
