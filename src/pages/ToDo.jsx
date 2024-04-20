@@ -86,8 +86,8 @@ const ToDo = () => {
       <div className="background-image "></div>
       <div className="header z-[1] flex justify-between gap-[195%] items-center self-start ml-[22%] mt-[25px]">
         <div className="title">
-        <div className="title text-[white] tracking-[55px] text-[50px] font-semibold flex items-center justify-center py-12 ">
-            CHECKMATE
+        <div className="title text-[white] tracking-[5px] text-[50px] font-semibold flex items-center justify-center py-12 ">
+            CheckMate
         </div>
         </div>
         <div className="logout">
